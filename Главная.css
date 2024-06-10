@@ -1,11 +1,11 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 555px;
+  min-height: 579px;
 }
 
 .u-section-1 .u-image-1 {
   height: 554px;
   width: 889px;
-  margin: 0 auto -1px;
+  margin: 25px auto 1px;
 }
 
 @media (max-width: 1199px) {
@@ -46,16 +46,17 @@
     width: 340px;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 349px;
+  min-height: 304px;
 }
 
 .u-section-2 .u-text-1 {
-  margin: 51px 47px 0;
+  font-size: 2.25rem;
+  margin: 64px 47px 0;
 }
 
 .u-section-2 .u-text-2 {
   line-height: 1.8;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin: 20px 68px 0;
 }
 
@@ -76,7 +77,7 @@
 
 .u-section-2 .u-text-5 {
   font-size: 1.5rem;
-  margin: 0 auto 51px 491px;
+  margin: 0 auto 19px 491px;
 }
 
 .u-section-2 .u-btn-2 {
@@ -127,10 +128,6 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-2 .u-text-1 {
-    margin-top: 100px;
-  }
-
   .u-section-2 .u-text-2 {
     width: 540px;
   }
@@ -150,6 +147,10 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-2 .u-text-1 {
+    font-size: 1.875rem;
+  }
+
   .u-section-2 .u-text-2 {
     width: 340px;
   }
@@ -166,21 +167,26 @@
   .u-section-2 .u-text-5 {
     margin-left: 63px;
   }
-}.u-section-3 .u-sheet-1 {
-  min-height: 450px;
+} .u-section-3 {
+  background-image: none;
+}
+
+.u-section-3 .u-sheet-1 {
+  min-height: 510px;
 }
 
 .u-section-3 .u-gallery-1 {
-  height: 380px;
-  width: 544px;
-  margin: 36px auto 34px;
+  height: 442px;
+  width: 641px;
+  margin: 20px auto 49px;
 }
 
 .u-section-3 .u-carousel-indicators-1 {
   position: absolute;
-  bottom: 10px;
   width: auto;
   height: auto;
+  top: auto;
+  bottom: -35px;
 }
 
 .u-section-3 .u-carousel-item-1 {
@@ -237,18 +243,29 @@
   padding: 30px;
 }
 
+.u-section-3 .u-carousel-item-7 {
+  margin-right: 0;
+}
+
+.u-section-3 .u-over-slide-7 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 30px;
+}
+
 .u-section-3 .u-carousel-control-1 {
   position: absolute;
-  left: 10px;
+  left: -81px;
   width: 40px;
   height: 40px;
+  right: auto;
 }
 
 .u-section-3 .u-carousel-control-2 {
   position: absolute;
-  right: 10px;
   width: 40px;
   height: 40px;
+  left: auto;
+  right: -78px;
 }
 
 @media (max-width: 767px) {
@@ -259,6 +276,9 @@
 
 @media (max-width: 575px) {
   .u-section-3 .u-gallery-1 {
-    width: 340px;
+    margin-top: 118px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 }
